@@ -8,3 +8,4 @@ export const BikeSwaggerExample = {
     }
   }
 }
+// This is an example data to aid while testing through SwaggerUI. We can add multiple examples also, but Ive added just this one for the sake of simplicity.

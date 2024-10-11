@@ -7,6 +7,7 @@ describe('BikeController', () => {
   let controller: BikeController;
   let service: BikeService;
 
+  // providing both BikeService and PrismaService to ensure the test build does not fail as BikeService depends on PrismaService.
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [BikeController],
