@@ -1,9 +1,9 @@
 import { Injectable } from "@nestjs/common";
-import { PrismaService } from "prisma/prisma.service";
+import { PrismaService } from "../../../prisma/prisma.service";
 import { CreateBikeDtoType } from '../dto/create-bike.dto';
 import { UpdateBikeDtoType } from '../dto/update-bike.dto';
 import { Bike } from '../entities/bike.entity'; // Import the Bike entity
-import { winstonLogger } from "src/config/winston-logger.config";
+import { winstonLogger } from "../../config/winston-logger.config";
 
 @Injectable()
 export class BikeService {

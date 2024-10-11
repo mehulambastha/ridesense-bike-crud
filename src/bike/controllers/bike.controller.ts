@@ -1,11 +1,11 @@
 import { Controller, Get, Post, Body, Param, Patch, Delete, BadRequestException, NotFoundException } from '@nestjs/common';
-import { BikeService } from '../services/bike.service';
 import { CreateBikeDto } from '../dto/create-bike.dto';
 import { UpdateBikeDto } from '../dto/update-bike.dto';
-import { winstonLogger } from 'src/config/winston-logger.config';
+import { winstonLogger } from '../../config/winston-logger.config';
 import { ApiBody } from '@nestjs/swagger';
 import { BikeSwaggerSchema } from '../swagger/bike.swagger.schema';
 import { BikeSwaggerExample } from '../swagger/bike.swagger.examples';
+import { BikeService } from '../services/bike.service';
 
 @Controller('bike')
 export class BikeController {

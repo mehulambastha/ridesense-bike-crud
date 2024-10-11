@@ -3,5 +3,5 @@ export class Bike {
   make: string;
   model: string;
   year: number;
-  type: 'CRUISER' | 'SPORT' | 'ADVENTURE' | 'TOURING' | 'DIRT' | 'STANDARD'; // Enum of bike types
+  type: 'CRUISER' | 'SPORT' | 'ADVENTURE' | 'TOURING' | 'DIRT' | 'STANDARD';
 }
