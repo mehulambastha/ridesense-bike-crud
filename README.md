@@ -12,7 +12,7 @@ First, clone the project from the repository to your local machine:
 
 ```bash
 git clone https://github.com/mehulambastha/ridesense-bike-crud.git
-cd ridesense-task
+cd ridesense-bike-crud
 ```
 
 ### Step 2: Install Dependencies
